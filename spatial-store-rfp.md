@@ -163,7 +163,7 @@ The below requirements are used as a measure to compare different System design 
     i. The ID system MAY support ICANN domain names.  
     j. The ID system MAY conform to the DID standard.  
     k. The ID system SHALL be consistent with the requirements in section 8 of the [IWPS RFP](https://github.com/oma3dao/iwps-rfp/blob/main/iwps-rfp.md).  
-  10. Spatial Registry  
+  9. Spatial Registry  
     a. The Infrastructure addressing schedule SHALL be able to support multiple Worlds that are based in the real world (e.g. AR).  
     b. The Infrastructure MAY allow OMA3 to delegate the distribution of locations to other parties.  
 
