@@ -148,7 +148,7 @@ The below requirements are used as a measure to compare different System design 
     b. The ID system SHOULD identify Developers.  
     c. The ID system SHOULD identify human End Users.  
     d. The ID system MAY identify Agents and other non-human entities, including:  
-       - Who controls the Agent.  
+       d.1 Who controls the Agent.  
        - Who created the Agent.  
     e. The ID system MUST provide a mechanism to store reputation credentials with an ID.  
        - The reputation mechanism SHOULD allow selected data to be access controlled by the entity behind the owning ID.  
@@ -166,6 +166,10 @@ The below requirements are used as a measure to compare different System design 
   10. Spatial Registry  
     a. The Infrastructure addressing schedule SHALL be able to support multiple Worlds that are based in the real world (e.g. AR).  
     b. The Infrastructure MAY allow OMA3 to delegate the distribution of locations to other parties.  
+
+100. First list item
+     - First nested list item
+       - Second nested list item
 
 ## Change Log
 
