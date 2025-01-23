@@ -149,30 +149,31 @@ The below requirements are used as a measure to compare different System design 
       c. The ID system SHOULD identify human End Users.  
       d. The ID system MAY identify Agents and other non-human entities, including:  
                         <ol type="i">
-                            <li>Who controls the Agent.</li>
-                            <li>Who created the Agent</li>
+                            <li> Who controls the Agent.</li>
+                            <li> Who created the Agent.</li>
                         </ol>
-    e. The ID system MUST provide a mechanism to store reputation credentials with an ID.  
-       - The reputation mechanism SHOULD allow selected data to be access controlled by the entity behind the owning ID.  
-       - Reputation credentials SHOULD include humanity attestation.  
-       - Reputation credentials SHOULD include cybersecurity information on an Application.  
-    f. The ID system SHOULD provide a mechanism for the Developer to associate metadata with their Application, including:  
-       - Regions (e.g.- countries, continents, etc.).  
-       - Language support.  
-    g. If the ID system supports identity for Users, the ID system MAY be able to leverage a User’s login credentials (e.g.- email address or wallet address) for a specific Application for login purposes.
-       - The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.  
-    h. The ID system MAY implement a name service independent of ICANN domain names.  
-    i. The ID system MAY support ICANN domain names.  
-    j. The ID system MAY conform to the DID standard.  
-    k. The ID system SHALL be consistent with the requirements in section 8 of the [IWPS RFP](https://github.com/oma3dao/iwps-rfp/blob/main/iwps-rfp.md).  
-  9. Spatial Registry  
-    a. The Infrastructure addressing schedule SHALL be able to support multiple Worlds that are based in the real world (e.g. AR).  
-    b. The Infrastructure MAY allow OMA3 to delegate the distribution of locations to other parties.  
+      e. The ID system MUST provide a mechanism to store reputation credentials with an ID.
                         <ol type="i">
-                            <li>nested roman numeral</li>
-                            <li>nested roman numeral</li>
-                            <li>nested roman numeral</li>
+                            <li>  The reputation mechanism SHOULD allow selected data to be access controlled by the entity behind the owning ID.</li>
+                            <li>  Reputation credentials SHOULD include humanity attestation.</li>
+                            <li>  Reputation credentials SHOULD include cybersecurity information on an Application.</li>
                         </ol>
+      f. The ID system SHOULD provide a mechanism for the Developer to associate metadata with their Application, including:
+                        <ol type="i">
+                            <li>  Regions (e.g.- countries, continents, etc.).</li>
+                            <li>  Language support.</li>
+                        </ol>
+      g. If the ID system supports identity for Users, the ID system MAY be able to leverage a User’s login credentials (e.g.- email address or wallet address) for a specific Application for login purposes.
+                        <ol type="i">
+                            <li>  The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.</li>
+                        </ol>  
+      h. The ID system MAY implement a name service independent of ICANN domain names.  
+      i. The ID system MAY support ICANN domain names.  
+      j. The ID system MAY conform to the DID standard.  
+      k. The ID system SHALL be consistent with the requirements in section 8 of the [IWPS RFP](https://github.com/oma3dao/iwps-rfp/blob/main/iwps-rfp.md).  
+  10. Spatial Registry  
+      a. The Infrastructure addressing schedule SHALL be able to support multiple Worlds that are based in the real world (e.g. AR).  
+      b. The Infrastructure MAY allow OMA3 to delegate the distribution of locations to other parties.  
 
 ## Change Log
 
