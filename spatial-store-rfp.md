@@ -144,12 +144,14 @@ The below requirements are used as a measure to compare different System design 
       b. The Store SHALL have a 2D or 3D view for navigating 3D applications that do not require XR.   
       c. The Store SHALL have a 2D view for navigating Applications  
   8. ID and Reputation:  
-    a. The ID system MUST identify Applications.  
-    b. The ID system SHOULD identify Developers.  
-    c. The ID system SHOULD identify human End Users.  
-    d. The ID system MAY identify Agents and other non-human entities, including:  
-       d.1 Who controls the Agent.  
-       - Who created the Agent.  
+      a. The ID system MUST identify Applications.  
+      b. The ID system SHOULD identify Developers.  
+      c. The ID system SHOULD identify human End Users.  
+      d. The ID system MAY identify Agents and other non-human entities, including:  
+                        <ol type="i">
+                            <li>Who controls the Agent.</li>
+                            <li>Who created the Agent</li>
+                        </ol>
     e. The ID system MUST provide a mechanism to store reputation credentials with an ID.  
        - The reputation mechanism SHOULD allow selected data to be access controlled by the entity behind the owning ID.  
        - Reputation credentials SHOULD include humanity attestation.  
