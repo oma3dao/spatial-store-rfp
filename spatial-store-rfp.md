@@ -157,13 +157,18 @@ The below requirements are used as a measure to compare different System design 
       f. The ID system SHOULD provide a mechanism for the Developer to associate metadata with their Application, including:  
           i. Regions (e.g.- countries, continents, etc.).  
           ii. Language support.  
-      g. If the ID system supports identity for Users, the ID system MAY be able to leverage a User’s login credentials (e.g.- email address or wallet address) for a specific Application for login purposes.  
+      g. If the ID system supports identity for Users, the ID system MAY be able to leverage a User’s login credentials (e.g.- email address or wallet address) for a specific Application for login purposes.
+     <ol type="i">
+  <li>The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>   
        i. The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.  
       h. The ID system MAY implement a name service independent of ICANN domain names.  
       i. The ID system MAY support ICANN domain names.  
       j. The ID system MAY conform to the DID standard.  
       k. The ID system SHALL be consistent with the requirements in section 8 of the [IWPS RFP](https://github.com/oma3dao/iwps-rfp/blob/main/iwps-rfp.md).  
-  9. Spatial Registry  
+  10. Spatial Registry  
       a. The Infrastructure addressing schedule SHALL be able to support multiple Worlds that are based in the real world (e.g. AR).  
       b. The Infrastructure MAY allow OMA3 to delegate the distribution of locations to other parties.  
 
