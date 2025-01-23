@@ -166,10 +166,11 @@ The below requirements are used as a measure to compare different System design 
   9. Spatial Registry  
     a. The Infrastructure addressing schedule SHALL be able to support multiple Worlds that are based in the real world (e.g. AR).  
     b. The Infrastructure MAY allow OMA3 to delegate the distribution of locations to other parties.  
-
-100. First list item
-     - First nested list item
-       - Second nested list item
+                        <ol type="i">
+                            <li>nested roman numeral</li>
+                            <li>nested roman numeral</li>
+                            <li>nested roman numeral</li>
+                        </ol>
 
 ## Change Log
 
