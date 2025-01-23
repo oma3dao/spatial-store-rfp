@@ -148,22 +148,17 @@ The below requirements are used as a measure to compare different System design 
       b. The ID system SHOULD identify Developers.  
       c. The ID system SHOULD identify human End Users.  
       d. The ID system MAY identify Agents and other non-human entities, including:  
-          i. Who controls the Agent.  
-          ii. Who created the Agent.  
+       - Who controls the Agent.  
+       - Who created the Agent.  
       e. The ID system MUST provide a mechanism to store reputation credentials with an ID.  
-          i. The reputation mechanism SHOULD allow selected data to be access controlled by the entity behind the owning ID.  
-          ii. Reputation credentials SHOULD include humanity attestation.  
-          iii. Reputation credentials SHOULD include cybersecurity information on an Application.  
+       - The reputation mechanism SHOULD allow selected data to be access controlled by the entity behind the owning ID.  
+       - Reputation credentials SHOULD include humanity attestation.  
+       - Reputation credentials SHOULD include cybersecurity information on an Application.  
       f. The ID system SHOULD provide a mechanism for the Developer to associate metadata with their Application, including:  
-          i. Regions (e.g.- countries, continents, etc.).  
-          ii. Language support.  
+       - Regions (e.g.- countries, continents, etc.).  
+       - Language support.  
       g. If the ID system supports identity for Users, the ID system MAY be able to leverage a User’s login credentials (e.g.- email address or wallet address) for a specific Application for login purposes.
-         <ol>
-  <li>The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>   
-       i. The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.  
+       - The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.  
       h. The ID system MAY implement a name service independent of ICANN domain names.  
       i. The ID system MAY support ICANN domain names.  
       j. The ID system MAY conform to the DID standard.  
