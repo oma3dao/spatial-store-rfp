@@ -75,11 +75,11 @@ Preconditions
 For more information on the value of a threat model, please see Section 4 of the [OMA3 Working Group Process](https://github.com/oma3dao/working-group-process/blob/main/working-group-process.md). The Spatial Store will encounter the following threats:
 
   1. Malicious Applications:  Adversaries could attempt to submit applications that contain malware, spyware, or ransomware, potentially compromising user devices or data once downloaded or accessed. Adversaries could create counterfeit versions of popular applications or worlds to deceive users
-  2. Store Compromise:  Adversaries can compromise the Store through various attack vectors, including:
-      a. Compromising the mechanism the Store is accessed by users
-      b. Intercepting the Store download
-      c. Compromising the Store software
-      d. Attacking third-party tools, libraries, or development kits used by the Store
+  2. Store Compromise:  Adversaries can compromise the Store through various attack vectors, including:  
+      a. Compromising the mechanism the Store is accessed by users  
+      b. Intercepting the Store download  
+      c. Compromising the Store software  
+      d. Attacking third-party tools, libraries, or development kits used by the Store  
   3. Infrastructure Compromise:  Vulnerabilities in smart contracts could be exploited to steal funds, change ownership of virtual worlds, or manipulate application functionality
   4. Supply Chain Compromise:  Adversaries can compromise system/protocol components.  
      Examples of such components include:  
