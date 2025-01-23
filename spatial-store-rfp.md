@@ -158,7 +158,7 @@ The below requirements are used as a measure to compare different System design 
           i. Regions (e.g.- countries, continents, etc.).  
           ii. Language support.  
       g. If the ID system supports identity for Users, the ID system MAY be able to leverage a User’s login credentials (e.g.- email address or wallet address) for a specific Application for login purposes.  
-          i. The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.  
+       i. The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.  
       h. The ID system MAY implement a name service independent of ICANN domain names.  
       i. The ID system MAY support ICANN domain names.  
       j. The ID system MAY conform to the DID standard.  
