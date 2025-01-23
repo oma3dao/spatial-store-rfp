@@ -83,60 +83,59 @@ For more information on the value of a threat model, please see Section 4 of the
   3. Infrastructure Compromise:  Vulnerabilities in smart contracts could be exploited to steal funds, change ownership of virtual worlds, or manipulate application functionality
   4. Supply Chain Compromise:  Adversaries can compromise system/protocol components.  
      Examples of such components include:  
-      a. IWPS protocol, especially if Applications do not implement the highest level of security.
-      b. Web browser
-      c. Operating system
-      d. Third party application infrastructure connecting to the IWPS protocol.
+      a. IWPS protocol, especially if Applications do not implement the highest level of security.  
+      b. Web browser  
+      c. Operating system  
+      d. Third party application infrastructure connecting to the IWPS protocol.  
   5. Component Compromise:  Adversaries can attack a vulnerability in the System’s software bill of materials (SBOM).
-  6. Location Spoofing and Hijacking: Attackers could exploit vulnerabilities in the Infrastructure spatial coordinate system to spoof or hijack registered locations such as:
-      a. Placing malicious applications in highly visible or trusted locations.
-      b. Taking away the location of a World.
+  6. Location Spoofing and Hijacking: Attackers could exploit vulnerabilities in the Infrastructure spatial coordinate system to spoof or hijack registered locations such as:  
+      a. Placing malicious applications in highly visible or trusted locations.  
+      b. Taking away the location of a World.  
   7. Data Breaches:  
-      a. Adversaries can steal data (including behavior, location, and interactions) stored by the Store. 
-      b. Adversaries can misuse public information stored on the Infrastructure.
+      a. Adversaries can steal data (including behavior, location, and interactions) stored by the Store.  
+      b. Adversaries can misuse public information stored on the Infrastructure.  
   8. Cross-Platform Vulnerabilities: Since the app store will operate across various platforms (iOS, Android, VR, PC, etc.), vulnerabilities in one platform may allow attackers to compromise other platforms or the overall app store ecosystem.
   9. Denial-of-Service (DoS) Attack: Attackers could flood the Infrastructure with fake registration requests or excessive network traffic.
   10. Reputation Spoofing:  
-      a. Attackers could register false credentials with an End User, such as an Agent as a human or a human as an Agent.
-      b. Attackers could register false credentials with an Application.
-  11. Identity Theft:
-      a. Attackers could steal or hijack the identity of an End User or Developer.
-      b. Attackers could view private credentials associated with an ID.
-      c. Attackers could track End Users through the metaverse, violating privacy rights.
-
+      a. Attackers could register false credentials with an End User, such as an Agent as a human or a human as an Agent.  
+      b. Attackers could register false credentials with an Application.  
+  11. Identity Theft:  
+      a. Attackers could steal or hijack the identity of an End User or Developer.  
+      b. Attackers could view private credentials associated with an ID.  
+      c. Attackers could track End Users through the metaverse, violating privacy rights.  
 
 ## Requirements
 
 The below requirements are used as a measure to compare different System design options.  Some of the requirements are required, some are optional.  For more information on how to interpret the language, please see Section 5 of the [OMA3 Working Group Process](https://github.com/oma3dao/working-group-process/blob/main/working-group-process.md). 
 
-  1. Interoperability Requirements
-      a. The Store SHALL be accessible from web browsers, iOS, and Android if allowed.
-      b. The Store SHALL support Applications built for web browsers, iOS, Android, MacOS, and Windows.
-      c. The Store MAY support Applications built on Linux based operating systems
-      d. The Store MAY support closed platforms like PS, Xbox, Oculus, and Vision Pro.
-      e. The Store SHALL use IWPS to launch Applications.
-      f. The Store SHALL allow portaling to it via IWPS.
-      g. The Infrastructure SHALL store ID registrations on the blockchain.
-      h. The Infrastructure SHALL store location registrations on the blockchain.
-      i. The Infrastructure SHOULD support the most common spatial addressing industry standards.
-      j. The Infrastructure SHOULD have the ability to support all blockchains.
-      k. The Infrastructure ID system SHOULD support the DID standard.
-  2. Scalability:
-      a. The Store SHOULD support thousands of Applications.
-      b. The Infrastructure SHOULD support millions of locations and IDs.
-  3. Cybersecurity Requirements:
-      a. The Store SHOULD support a clear, transparent, and fair cybersecurity certification program.
-      b. The cybersecurity program SHOULD allow for multiple review mechanisms.
+  1. Interoperability Requirements  
+      a. The Store SHALL be accessible from web browsers, iOS, and Android if allowed.  
+      b. The Store SHALL support Applications built for web browsers, iOS, Android, MacOS, and Windows.  
+      c. The Store MAY support Applications built on Linux based operating systems  
+      d. The Store MAY support closed platforms like PS, Xbox, Oculus, and Vision Pro.  
+      e. The Store SHALL use IWPS to launch Applications.  
+      f. The Store SHALL allow portaling to it via IWPS.  
+      g. The Infrastructure SHALL store ID registrations on the blockchain.  
+      h. The Infrastructure SHALL store location registrations on the blockchain.  
+      i. The Infrastructure SHOULD support the most common spatial addressing industry standards.  
+      j. The Infrastructure SHOULD have the ability to support all blockchains.  
+      k. The Infrastructure ID system SHOULD support the DID standard.  
+  2. Scalability:  
+      a. The Store SHOULD support thousands of Applications.  
+      b. The Infrastructure SHOULD support millions of locations and IDs.  
+  3. Cybersecurity Requirements:  
+      a. The Store SHOULD support a clear, transparent, and fair cybersecurity certification program.  
+      b. The cybersecurity program SHOULD allow for multiple review mechanisms.  
   4. Governance:
-      a. Governance of the System SHALL be controlled by OMA3.
-      b. The System governance SHALL have dispute resolution mechanisms for location ownership and ID registration.
-      c. The Store application submission requirements SHALL be clearly defined and applied.
-  5. Regulatory and Compliance Requirements:
-      a. System SHALL conform to regulations in jurisdictions the Store is made available.
-      b. This System SHALL comply with all applicable privacy and data protection regulations including GDPR, CCPA, and COPPA.
-      c. The Store SHOULD maintain industry-standard security measures to protect user data and follow platform-specific security guidelines.
-      d. The Store MAY implement accessibility requirements and standards to ensure usability for all users.
-      e. The System SHALL adhere to all relevant app store policies, guidelines, and content restrictions of the Platform it resides on.
+      a. Governance of the System SHALL be controlled by OMA3.  
+      b. The System governance SHALL have dispute resolution mechanisms for location ownership and ID registration.  
+      c. The Store application submission requirements SHALL be clearly defined and applied.  
+  5. Regulatory and Compliance Requirements:  
+      a. System SHALL conform to regulations in jurisdictions the Store is made available.  
+      b. This System SHALL comply with all applicable privacy and data protection regulations including GDPR, CCPA, and COPPA.  
+      c. The Store SHOULD maintain industry-standard security measures to protect user data and follow platform-specific security guidelines.  
+      d. The Store MAY implement accessibility requirements and standards to ensure usability for all users.  
+      e. The System SHALL adhere to all relevant app store policies, guidelines, and content restrictions of the Platform it resides on.  
   6. User Privacy and Data Security:
       a. Compliance with global privacy regulations, such as the General Data Protection Regulation (GDPR) in Europe and California Consumer Privacy Act (CCPA) in the US.
       b. Strong data security protocols to ensure the safe handling of user data, including anonymization and encryption technologies.
