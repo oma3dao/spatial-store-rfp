@@ -58,14 +58,14 @@ Preconditions
   * Store Operator has approved one or more Assessors and has made their contact information available to Developers.
   * Store Operator has published requirements for Application submission.
 
-  1. Registration:  Developer registers Application with System and obtains an ID (if necessary).
+  1. Registration:  Developer registers Application with System with the Application ID (or obtains an ID if necessary).
   2. Addressing (optional): Developer acquires a location in the Infrastructure for their World. 
-  3. Review: Developer requests an Assessor perform a review of the Application.  Assessor associates results with Application ID on System.
-  4. Submission: Developer submits their Application to the Store Operator. 
-  5. Approval: The Spatial Store Operator reviews the Assessor results. If the Application passes requirements, the Operator allows the Application to be listed in the Store.
-  6. Listing: Once approved, the Application is officially listed in the Store.  If the Application is a World, it occupies its location within the Store’s 3D space.
-  7. Use:  End User chooses an Application in the UI.
-  8. Login:  End Users use System to identify and authenticate themselves with the Application.  Application optionally checks Assessor credentials to approve/reject login.
+  3. Review (optional): Developer requests an Assessor perform a review of the Application.  Assessor associates results with Application ID on System.
+  4. Submission (optional): Developer submits their Application to the Store Operator. 
+  5. Approval (optional): The Spatial Store Operator reviews the Assessor results. If the Application passes requirements, the Operator adds an additional certification on the Infrastructure.
+  6. Listing: The Application shows up in the Store.  If the Application is a World, it occupies its location within the Store’s 3D space.  If the Application does not have the proper assessments and certifications, it may not show up in the Store using the default Store filters.
+  7. Use:  End User chooses an Application in the Store UI.
+  8. Login:  End Users, possibly with the help of the System, identify and authenticate themselves with the Application.
   9. Exploration: End Users access the Store using their device (e.g., VR headset, smartphone, or PC). The End User is presented with a 3D interface where they can explore available Worlds.  Agents either access the Store or the Infrastructure directly.
   10. Interaction: End Users navigate the Store space, discovering and interacting with different Worlds. When an End User clicks on a World, they can enter it using IWPS.
   11. Non-Spatial Apps: For utility Applications (e.g., crypto wallets) that do not require spatial placement, End Users can toggle the Store to a non-spatial view, where these Applications are listed in a traditional 2D interface.
