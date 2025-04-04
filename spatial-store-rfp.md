@@ -94,16 +94,28 @@ For more information on the value of a threat model, please see Section 4 of the
   7. Data Breaches:  
       a. Adversaries can steal data (including behavior, location, and interactions) stored by the Store.  
       b. Adversaries can misuse public information stored on the Infrastructure.  
+      c. Adversaries can steal private keys to control accounts.  
   8. Cross-Platform Vulnerabilities: Since the app store will operate across various platforms (iOS, Android, VR, PC, etc.), vulnerabilities in one platform may allow attackers to compromise other platforms or the overall app store ecosystem.
   9. Denial-of-Service (DoS) Attack: Attackers could flood the Infrastructure with fake registration requests or excessive network traffic.
   10. Reputation Spoofing:  
       a. Attackers could register false credentials with an End User, such as an Agent as a human or a human as an Agent.  
       b. Attackers could register false credentials with an Application.  
+      c. Bots could sybil attack a review system.      
   11. Identity Theft:  
       a. Attackers could steal or hijack the identity of an End User or Developer.  
       b. Attackers could view private credentials associated with an ID.  
       c. Attackers could track End Users through the metaverse, violating privacy rights.  
-
+  12. User Error:
+      a. Users can lose passwords or control of their private keys.  
+      b. Users can send funds to the wrong address.
+  13. Governance:
+      a. Centralized store governance can lead to the same issues as centralized app stores.  
+      b. Collusion in decentralized governance.
+  14. Spatial:  
+      a. Attackers could steal owned locations.  
+      b. Location can be spoofed.  
+      c. Process for owning a location can be manipulated or spammed.  
+           
 ## Requirements
 
 The below requirements are used as a measure to compare different System design options.  Some of the requirements are required, some are optional.  For more information on how to interpret the language, please see Section 5 of the [OMA3 Working Group Process](https://github.com/oma3dao/working-group-process/blob/main/working-group-process.md). 
@@ -119,7 +131,8 @@ The below requirements are used as a measure to compare different System design 
       h. The Infrastructure SHALL store location registrations on the blockchain.  
       i. The Infrastructure SHOULD support the most common spatial addressing industry standards.  
       j. The Infrastructure SHOULD have the ability to support all blockchains.  
-      k. The Infrastructure ID system SHOULD support the DID standard.  
+      k. The Infrastructure SHOULD allow Developers to register Applications on different blockchains.  
+      l. The Infrastructure ID system SHOULD support the DID standard.  
   2. Scalability:  
       a. The Store SHOULD support thousands of Applications.  
       b. The Infrastructure SHOULD support millions of locations and IDs.  
@@ -168,7 +181,7 @@ The below requirements are used as a measure to compare different System design 
                             <li>  The login mechanism SHOULD allow a User to keep their login credentials private and controlled by the owning ID.</li>
                         </ol>
       h. The ID system MAY implement a name service independent of ICANN domain names.  
-      i. The ID system MAY support ICANN domain names.  
+      i. The ID system SHOULD support ICANN domain names.  
       j. The ID system MAY conform to the DID standard.  
       k. The ID system SHALL be consistent with the requirements in section 8 of the [IWPS RFP](https://github.com/oma3dao/iwps-rfp/blob/main/iwps-rfp.md).  
   9. Spatial Registry  
